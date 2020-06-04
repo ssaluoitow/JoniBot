@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 
 const bot = new Discord.Client();
-bot.login('BOT_TOKEN');
-const userID = 'USER_ID';
-const serverID = 'SERVER_ID';
+bot.login(process.env.BOT_TOKEN);
+const userID = process.env.USER_ID;
+const serverID = process.env.SERVER_ID;
 var connection;
 var avatar;
 var user;
