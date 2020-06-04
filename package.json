@@ -1,0 +1,31 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Discord Bot for poodrig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssaluoitow/JoniBot.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "poodrig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssaluoitow/JoniBot/issues"
+  },
+  "homepage": "https://github.com/ssaluoitow/JoniBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "engines": {
+    "node": "12.18",
+    "npm": "6.14.4"
+  }
+}
