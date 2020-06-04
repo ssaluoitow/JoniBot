@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 
 const bot = new Discord.Client();
-bot.login('NzE3NjQ1NzEzMzUzMzQzMTI5.XtdV8g.GWER5bJ49vIKpDddiirRgmRihpE');
-const userID = '203882280383545344';
-const serverID = '485740253357932545';
+bot.login('BOT_TOKEN');
+const userID = 'USER_ID';
+const serverID = 'SERVER_ID';
 var connection;
 var avatar;
 var user;
